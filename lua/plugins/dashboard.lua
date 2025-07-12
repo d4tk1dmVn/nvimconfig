@@ -41,9 +41,9 @@ return {
             --         { "This is another long quote", "- Author" },
             --     }
             -- }
-            -- IMPORTANT: QUOTES/TIPS TABLES ARE EXPECTED TO BE A PAIR
+            -- IMPORTANT: QUOTES/TIPS OBJECTS ARE EXPECTED TO BE A PAIR
             -- therefore, both short and long elements SHOULD be defined
-            -- to prevent fortune from breaking
+            -- to prevent fortune from shitting it's pants
             custom_quotes = {
               short = {
                 {"Know thyself", "- Socrates"},
@@ -77,6 +77,7 @@ return {
                 {"# ASTRONAUT: PLEASE CRANK THE SILLY THING AROUND", "- Apolo 11 source code"},
                 {"Best thing thing about UDP jokes? Don't care if you get them", "- r/AskReddit"},
                 {"+Did you really name your son Robert \'); DROP TABLE Students;-- ? -Oh yes, lil' Bobby Tables, we call him", "- xkcd"},
+                {"Programming is like sex: One mistake and you have to support it for the rest of your life.", "- r/ProgrammerHumor"},
                 {"Allow the user to enter whatever values they want, if they enter a stupid value the program may crash. So? What do they expect?", "- An idiots guide to really, really bad programming"},
                 {"This can't be good for me, but I feel great!", "- The Postal Dude"},
                 {"I suppose it would have been more politically correct to kill the women and the minorities first.", "- The Postal Dude"},
@@ -90,6 +91,7 @@ return {
                 {"We can't stop here, this is bat country!", "- Hunter S.Thompson"},
                 { "If you don't finish then you're just busy, not productive.", "- Anonymous" },
                 { "NVIDIA, fuck you", "- Linus Torvalds" },
+                { "If you don't finish then you're just busy, not productive.", "", "- Anonymous" },
                 {
                   "Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.",
                   "",
@@ -1095,6 +1097,12 @@ return {
                   "Abstraction is not about vagueness, it is about being precise at a new semantic level.",
                   "",
                   "- Edsger W. Dijkstra",
+                },
+
+                {
+                  "Back in the day, when you told a user to only type 30 characters, they would only type 30 characters. People were honorable and only 100 computers existed and you personally knew every computer programmer and user.",
+                  "",
+                  "- FigBug at r/programming",
                 },
 
                 {
